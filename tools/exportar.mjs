@@ -59,7 +59,7 @@ const posts = [];
 for (const p of publicaveis) {
   const arquivos = String(p.arquivos).split('\n').filter(Boolean);
   const carrossel = p.formato === 'Carrossel';
-  if (carrossel && (arquivos.length < 2 || arquivos.length > 10)) throw new Error(`Post ${p.nn}: carrossel precisa de 2 a 10 slides (tem ${arquivos.length})`);
+  if (carrossel && (arquivos.length < 2 || arquivos.length > 20)) throw new Error(`Post ${p.nn}: carrossel precisa de 2 a 20 slides (tem ${arquivos.length})`);
   const saidas = [];
   for (const [i, arq] of arquivos.entries()) {
     const fonte = CRIATIVOS[arq];

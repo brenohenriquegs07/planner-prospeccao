@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "exportar": "node tools/exportar.mjs"
+    "exportar": "node tools/exportar.mjs",
+    "publicar": "node tools/publicar.mjs",
+    "renovar-token": "node tools/renovar-token.mjs"
   },
   "devDependencies": {
     "playwright": "1.64.1"
