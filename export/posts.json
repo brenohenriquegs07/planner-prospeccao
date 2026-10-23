@@ -1,0 +1,354 @@
+{
+  "fuso": "America/Sao_Paulo",
+  "posts": [
+    {
+      "id": "post-01",
+      "titulo": "Muito prazer, somos a Prospecção",
+      "data_hora": "2026-10-23T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-01.jpg"
+      ],
+      "legenda": "Muito prazer, somos a Prospecção. 👋\n\nAqui em Recife a gente cria soluções com inteligência artificial e automação para negócios: atendimento no WhatsApp 24 horas, agendamentos, orçamentos e tarefas repetitivas rodando sozinhas, sem perder o toque humano.\n\nNos próximos posts você vai ver o que a IA já faz por um negócio, para quem a gente trabalha e os bastidores do que estamos construindo.\n\nQuer ver funcionando? Chama no direct.\n\n#recife #inteligenciaartificial #automacao #transformacaodigital #pernambuco"
+    },
+    {
+      "id": "post-02",
+      "titulo": "O que fazemos: 4 frentes",
+      "data_hora": "2026-10-24T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-02-1.jpg",
+        "media/post-02-2.jpg",
+        "media/post-02-3.jpg",
+        "media/post-02-4.jpg",
+        "media/post-02-5.jpg",
+        "media/post-02-6.jpg"
+      ],
+      "legenda": "Tecnologia não precisa ser complicada. Ela precisa caber na rotina do seu negócio.\n\nArrasta pro lado para ver as 4 frentes em que a gente trabalha:\n→ Atendente de IA no WhatsApp\n→ Automações sob medida\n→ Sites e landing pages\n→ Sistemas sob medida\n\nQual delas o seu negócio precisa primeiro? Conta aqui nos comentários.\n\n#recife #inteligenciaartificial #automacao #whatsapp #ia"
+    },
+    {
+      "id": "post-03",
+      "titulo": "5 tarefas do seu negócio que a IA já faz bem",
+      "data_hora": "2026-10-25T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-03-1.jpg",
+        "media/post-03-2.jpg",
+        "media/post-03-3.jpg",
+        "media/post-03-4.jpg",
+        "media/post-03-5.jpg",
+        "media/post-03-6.jpg",
+        "media/post-03-7.jpg",
+        "media/post-03-8.jpg"
+      ],
+      "legenda": "A IA já resolve boa parte do que toma o seu dia, e não precisa ser nada complicado.\n\nArrasta pro lado para ver 5 tarefas que ela já faz bem em qualquer negócio:\n1. Responder as perguntas de sempre\n2. Agendar e confirmar horários\n3. Montar orçamentos\n4. Organizar os contatos\n5. Escrever o que toma tempo\n\nE uma que ela não deve fazer sozinha. 👀\n\nSalva para não esquecer e comenta qual dessas você quer primeiro no seu negócio.\n\n#inteligenciaartificial #automacao #whatsapp #pequenasempresas #recife"
+    },
+    {
+      "id": "post-05",
+      "titulo": "Tecnologia com gente de verdade por trás",
+      "data_hora": "2026-10-26T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-05.jpg"
+      ],
+      "legenda": "A gente acredita numa coisa simples: inteligência artificial é ferramenta. Quem entende o seu negócio, escuta o seu cliente e responde quando algo dá errado é gente.\n\nPor isso cada projeto da Prospecção tem alguém de verdade acompanhando, do primeiro café à entrega.\n\n#recife #tecnologia #ia #negocios"
+    },
+    {
+      "id": "post-06",
+      "titulo": "Pergunta: o que mais toma o seu tempo?",
+      "data_hora": "2026-10-27T10:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-06.jpg"
+      ],
+      "legenda": "Pergunta rápida para quem tem negócio: qual dessas mais rouba o seu tempo na semana?\n\nA) Responder mensagens no WhatsApp\nB) Marcar e remarcar horários\nC) Fazer orçamentos\nD) Organizar planilhas e contatos\n\nResponde com a letra aqui nos comentários. Os próximos posts vão falar da mais votada. 👇\n\n#empreendedorismo #produtividade #pequenasempresas #recife"
+    },
+    {
+      "id": "post-07",
+      "titulo": "Frase: o cliente não espera",
+      "data_hora": "2026-10-28T18:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-07.jpg"
+      ],
+      "legenda": "Ninguém gosta de esperar. Muito menos quem está pronto para comprar.\n\nQuando a resposta demora, o cliente não reclama: ele só manda mensagem para o próximo da lista.\n\nNo seu negócio, quanto tempo leva a primeira resposta? 👇\n\n#atendimento #whatsapp #pequenasempresas #recife"
+    },
+    {
+      "id": "post-08",
+      "titulo": "O que você nunca deve colar no ChatGPT",
+      "data_hora": "2026-10-29T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-08-1.jpg",
+        "media/post-08-2.jpg",
+        "media/post-08-3.jpg",
+        "media/post-08-4.jpg",
+        "media/post-08-5.jpg",
+        "media/post-08-6.jpg",
+        "media/post-08-7.jpg",
+        "media/post-08-8.jpg"
+      ],
+      "legenda": "Usa ChatGPT no trabalho? Então salva esse post. 📌\n\nA IA ajuda muito, mas tem coisa que não pode ser colada nela: dados de clientes, senhas, informações de saúde e financeiras, documentos internos.\n\nArrasta para o lado para ver a lista e como usar com segurança.\n\n#inteligenciaartificial #chatgpt #lgpd #seguranca"
+    },
+    {
+      "id": "post-09",
+      "titulo": "22h14: a mensagem sem resposta",
+      "data_hora": "2026-10-30T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-09.jpg"
+      ],
+      "legenda": "22h14. A mensagem chegou e ficou sem resposta.\n\nNa manhã seguinte, o cliente já tinha resolvido com outro negócio. Não por preço, nem por qualidade: por quem respondeu primeiro.\n\nUm atendente de IA responde na hora, 24 horas por dia, com as informações do seu negócio.\n\n#whatsapp #atendimento #inteligenciaartificial #recife"
+    },
+    {
+      "id": "post-11",
+      "titulo": "Para quem fazemos",
+      "data_hora": "2026-10-31T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-11.jpg"
+      ],
+      "legenda": "Para quem a gente trabalha? Para negócios que vivem do WhatsApp.\n\n💆 Saúde e beleza: clínicas, consultórios e salões\n🔧 Serviços: assistências, oficinas e urgências 24h\n🛍️ Comércio: lojas, delivery e restaurantes\n\nSe o seu negócio responde as mesmas perguntas todo dia e perde cliente fora do horário, a IA pode ajudar.\n\n#recife #pequenasempresas #empreendedorismo #whatsapp"
+    },
+    {
+      "id": "post-12",
+      "titulo": "O cliente que mandou mensagem às 22h",
+      "data_hora": "2026-11-01T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-12-1.jpg",
+        "media/post-12-2.jpg",
+        "media/post-12-3.jpg",
+        "media/post-12-4.jpg",
+        "media/post-12-5.jpg",
+        "media/post-12-6.jpg"
+      ],
+      "legenda": "Uma história que acontece todo dia, talvez no seu negócio.\n\nAna mandou mensagem para três salões às 22h14. Só um respondeu na hora. Adivinha quem ficou com a cliente?\n\nArrasta para o lado. 👉\n\n#atendimento #whatsapp #empreendedorismo #recife"
+    },
+    {
+      "id": "post-15",
+      "titulo": "Feriado também tem cliente mandando mensagem",
+      "data_hora": "2026-11-02T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-15.jpg"
+      ],
+      "legenda": "Feriado para você, dia normal para o seu cliente. 📱\n\nEnquanto você descansa, as mensagens continuam chegando. Quem responde no seu negócio?\n\nCom um atendente de IA, ninguém fica sem resposta, nem no feriado.\n\n#feriado #whatsapp #inteligenciaartificial #atendimento"
+    },
+    {
+      "id": "post-14",
+      "titulo": "Frase: responder rápido também é atender bem",
+      "data_hora": "2026-11-03T18:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-14.jpg"
+      ],
+      "legenda": "Rapidez e cuidado não brigam. Dá para responder em segundos e ainda chamar o cliente pelo nome, com educação e carinho.\n\nÉ isso que a gente configura em cada atendente de IA. 🧡\n\n#atendimento #whatsapp #recife"
+    },
+    {
+      "id": "post-13",
+      "titulo": "Mito ou verdade: a IA vai substituir o atendimento humano",
+      "data_hora": "2026-11-04T10:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-13.jpg"
+      ],
+      "legenda": "Mito. 🙅\n\nA IA cuida do que é repetitivo: responder as dúvidas de sempre, agendar, organizar os contatos. Reclamação, negociação e exceção continuam com gente.\n\nO melhor atendimento é IA e gente, juntos.\n\nConcorda? Comenta aqui. 👇\n\n#inteligenciaartificial #atendimento #mitoouverdade #automacao"
+    },
+    {
+      "id": "post-16",
+      "titulo": "Um comando pronto para responder clientes em 10 segundos",
+      "data_hora": "2026-11-05T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-16-1.jpg",
+        "media/post-16-2.jpg",
+        "media/post-16-3.jpg",
+        "media/post-16-4.jpg",
+        "media/post-16-5.jpg",
+        "media/post-16-6.jpg"
+      ],
+      "legenda": "Copie, cole e use hoje. 📋\n\nUm comando simples para a IA escrever respostas educadas e claras para os seus clientes, usando só as informações do seu negócio.\n\nArrasta para o lado para ver o comando, como usar e um exemplo. Salva para não perder. 📌\n\n#chatgpt #inteligenciaartificial #produtividade #whatsapp"
+    },
+    {
+      "id": "post-18",
+      "titulo": "Como trabalhamos: 4 passos",
+      "data_hora": "2026-11-06T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-18.jpg"
+      ],
+      "legenda": "Como é trabalhar com a Prospecção:\n\n1. Escuta: entendemos a rotina antes de propor qualquer tecnologia.\n2. Desenho: proposta com escopo, prazo e valor claros.\n3. Construção: entregas curtas, e você acompanha tudo.\n4. Acompanhamento: medimos, ajustamos e explicamos sem tecniquês.\n\nSem mistério e sem letra miúda.\n\n#recife #processo #projetos #tecnologia"
+    },
+    {
+      "id": "post-19",
+      "titulo": "Quanto custa demorar para responder?",
+      "data_hora": "2026-11-07T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-19-1.jpg",
+        "media/post-19-2.jpg",
+        "media/post-19-3.jpg",
+        "media/post-19-4.jpg",
+        "media/post-19-5.jpg",
+        "media/post-19-6.jpg"
+      ],
+      "legenda": "Quanto custa demorar para responder? A gente fez a conta. 🧮\n\nClientes que desistem por semana × valor de cada um × 4 semanas. Num exemplo simples, 3 clientes de R$ 150 viram R$ 1.800 por mês.\n\nArrasta para o lado e faz a conta do seu negócio. Depois conta aqui. 👇\n\n#atendimento #vendas #whatsapp #empreendedorismo"
+    },
+    {
+      "id": "post-20",
+      "titulo": "Pergunta: responde o WhatsApp depois das 19h?",
+      "data_hora": "2026-11-08T10:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-20.jpg"
+      ],
+      "legenda": "Enquete rápida: seu negócio responde o WhatsApp depois das 19h?\n\nA) Sempre\nB) Às vezes\nC) Quase nunca\nD) Só no dia seguinte\n\nResponde com a letra. Sem julgamento: a gente também já foi D. 😅\n\n#whatsapp #atendimento #pequenasempresas #recife"
+    },
+    {
+      "id": "post-21",
+      "titulo": "Feito em Recife, para o Brasil",
+      "data_hora": "2026-11-09T18:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-21.jpg"
+      ],
+      "legenda": "Feito em Recife, para o Brasil. 🌅\n\nA gente nasceu aqui, entre rios, pontes e muita gente boa de conversa. É desse jeito que a gente trabalha: perto, sem pressa de vender e com vontade de resolver.\n\nAtendemos negócios de todo o país.\n\n#recife #pernambuco #feitoemrecife #tecnologia"
+    },
+    {
+      "id": "post-22",
+      "titulo": "IA não substitui o seu atendimento",
+      "data_hora": "2026-11-10T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-22-1.jpg",
+        "media/post-22-2.jpg",
+        "media/post-22-3.jpg",
+        "media/post-22-4.jpg",
+        "media/post-22-5.jpg"
+      ],
+      "legenda": "IA substitui o atendimento humano? Não. E nem deveria. 🤝\n\nArrasta para o lado para ver o que a IA faz bem, o que fica com gente e o jeito certo de juntar os dois.\n\n#inteligenciaartificial #atendimento #automacao #negocios"
+    },
+    {
+      "id": "post-23",
+      "titulo": "3 sinais de que sua empresa já precisa de automação",
+      "data_hora": "2026-11-11T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-23.jpg"
+      ],
+      "legenda": "Salva esse post e confere: quantos desses sinais aparecem no seu negócio?\n\n1. Você responde as mesmas perguntas no WhatsApp todo dia.\n2. Os contatos ficam espalhados entre caderno, planilha e celular.\n3. Ninguém sabe dizer de onde veio o último cliente.\n\nSe marcou dois ou mais, vale olhar para automação. Chama no direct que a gente mostra por onde começar.\n\n#automacao #whatsapp #produtividade #pequenasempresas"
+    },
+    {
+      "id": "post-25",
+      "titulo": "Dados de clientes no WhatsApp: 4 cuidados básicos",
+      "data_hora": "2026-11-12T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-25-1.jpg",
+        "media/post-25-2.jpg",
+        "media/post-25-3.jpg",
+        "media/post-25-4.jpg",
+        "media/post-25-5.jpg",
+        "media/post-25-6.jpg"
+      ],
+      "legenda": "Dados de clientes no WhatsApp: 4 cuidados básicos que qualquer negócio consegue seguir hoje. 🔒\n\nArrasta para o lado e confere se o seu negócio já faz todos.\n\nConteúdo informativo. Para dúvidas jurídicas sobre LGPD, procure um especialista.\n\n#lgpd #whatsapp #seguranca #pequenasempresas"
+    },
+    {
+      "id": "post-26",
+      "titulo": "Por trás de cada atendente de IA tem alguém",
+      "data_hora": "2026-11-13T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-26.jpg"
+      ],
+      "legenda": "A IA não chega sabendo tudo. Alguém ensina.\n\nAqui na Prospecção, a gente conversa com você, entende o seu negócio, configura o atendente, testa e acompanha de perto. A IA só repete o que aprendeu com você.\n\nTecnologia com gente de verdade por trás. 🧡\n\n#bastidores #inteligenciaartificial #recife #atendimento"
+    },
+    {
+      "id": "post-27",
+      "titulo": "Pergunta: que tarefa você daria para a IA?",
+      "data_hora": "2026-11-14T10:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-27.jpg"
+      ],
+      "legenda": "Pergunta sincera: se a IA pudesse tirar UMA tarefa das suas costas amanhã, qual seria? 🙋\n\nConta aqui nos comentários. A gente responde cada um, com uma ideia de como resolver.\n\n#inteligenciaartificial #produtividade #empreendedorismo #recife"
+    },
+    {
+      "id": "post-28",
+      "titulo": "Frase: tecnologia boa é a que o cliente nem percebe",
+      "data_hora": "2026-11-15T18:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-28.jpg"
+      ],
+      "legenda": "O melhor atendimento é aquele em que o cliente nem pensa na tecnologia. Ele só sente que foi bem atendido.\n\nBom domingo. ☀️\n\n#atendimento #tecnologia #recife"
+    },
+    {
+      "id": "post-29",
+      "titulo": "Como funciona um atendente de IA, passo a passo",
+      "data_hora": "2026-11-16T19:00:00-03:00",
+      "tipo": "carrossel",
+      "arquivos": [
+        "media/post-29-1.jpg",
+        "media/post-29-2.jpg",
+        "media/post-29-3.jpg",
+        "media/post-29-4.jpg",
+        "media/post-29-5.jpg",
+        "media/post-29-6.jpg",
+        "media/post-29-7.jpg"
+      ],
+      "legenda": "Como funciona um atendente de IA, do primeiro \"oi\" até o agendamento? Passo a passo, sem tecniquês. 👇\n\nE na quarta-feira você vai ver tudo isso funcionando aqui no feed.\n\n#inteligenciaartificial #whatsapp #automacao #atendimento"
+    },
+    {
+      "id": "post-30",
+      "titulo": "Amanhã: o atendente de IA funcionando",
+      "data_hora": "2026-11-17T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-30.jpg"
+      ],
+      "legenda": "Amanhã, às 19h: um atendente de IA funcionando de verdade, do começo ao fim. 🎬\n\nAtiva as notificações do perfil para não perder.\n\n#lancamento #inteligenciaartificial #whatsapp #recife"
+    },
+    {
+      "id": "post-32",
+      "titulo": "2 vagas de piloto em novembro",
+      "data_hora": "2026-11-18T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-32.jpg"
+      ],
+      "legenda": "2 vagas de piloto em novembro. 🚀\n\nPor 30 dias, o seu negócio usa um atendente de IA no WhatsApp, com acompanhamento semanal da nossa equipe e condição especial de lançamento.\n\nSão só 2 porque a gente quer acompanhar cada um de perto. Chama no direct. 📩\n\n#inteligenciaartificial #whatsapp #recife #lancamento"
+    },
+    {
+      "id": "post-34",
+      "titulo": "Pergunta: qual pergunta você mais responde?",
+      "data_hora": "2026-11-19T10:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-34.jpg"
+      ],
+      "legenda": "Qual é a pergunta que você mais responde no WhatsApp? 🤔\n\nComenta aqui. A gente escolhe algumas e mostra nos stories como um atendente de IA responderia.\n\n#whatsapp #inteligenciaartificial #atendimento #recife"
+    },
+    {
+      "id": "post-33",
+      "titulo": "Frase: seu WhatsApp não tira folga",
+      "data_hora": "2026-11-20T19:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-33.jpg"
+      ],
+      "legenda": "Feriado para você, expediente normal para o seu WhatsApp. 📱\n\nCom um atendente de IA, quem manda mensagem hoje recebe resposta hoje, e você só confere o resumo quando quiser.\n\n#feriado #whatsapp #inteligenciaartificial #atendimento"
+    },
+    {
+      "id": "post-35",
+      "titulo": "Tem um projeto na cabeça?",
+      "data_hora": "2026-11-21T18:00:00-03:00",
+      "tipo": "imagem",
+      "arquivos": [
+        "media/post-35.jpg"
+      ],
+      "legenda": "Tem um projeto na cabeça? A gente ajuda a tirar do papel.\n\nManda uma mensagem no direct contando o que você precisa. A primeira conversa é sem compromisso, e quem responde é gente de verdade.\n\n#recife #ia #automacao #sites #projetos"
+    }
+  ]
+}
