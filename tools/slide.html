@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Slide</title>
+<style>
+  /* moldura de 1080x1350 (4:5) para o Playwright fotografar um slide */
+  html, body { margin: 0; width: 1080px; height: 1350px; overflow: hidden; background: #fff; }
+  img { display: block; width: 1080px; height: 1350px; object-fit: cover; }
+</style>
+</head>
+<body>
+<img id="arte" alt="">
+<script>
+  document.getElementById('arte').src = new URLSearchParams(location.search).get('src');
+</script>
+</body>
+</html>
