@@ -1,0 +1,44 @@
+name: Publicar imagens no GitHub Pages
+
+# Serve só export/media (as artes). posts.json e state.json não ficam públicos.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'export/media/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Montar o site
+        run: |
+          mkdir -p _site
+          cp -r export/media _site/media
+          echo "ok" > _site/index.html
+          echo "$(ls _site/media | wc -l) imagens"
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,83 @@
+name: Publicar no Instagram
+
+on:
+  schedule:
+    # A cada 30 minutos (o cron do GitHub é em UTC e pode atrasar alguns minutos).
+    # Minutos 3 e 33 em vez de 0 e 30: a virada da hora é o horário mais congestionado
+    # do GitHub e costuma atrasar mais. O script compara os horários em America/Sao_Paulo.
+    - cron: '3,33 * * * *'
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'dry-run só mostra o que seria publicado; publicar publica de verdade'
+        type: choice
+        options: [dry-run, publicar]
+        default: dry-run
+      post:
+        description: 'Opcional: id de um post para publicar agora, fora do horário (ex.: post-01)'
+        type: string
+        required: false
+
+# uma execução por vez; a próxima espera a anterior terminar
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    # chave geral: o agendamento só roda com a variável de repositório AUTOMACAO_ATIVA = true.
+    # O gatilho manual funciona sempre (para testes).
+    if: github.event_name != 'schedule' || vars.AUTOMACAO_ATIVA == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      # o publicar.mjs não tem dependências, então não precisa de npm install
+      - name: Publicar
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          # variável de repositório opcional; sem ela, usa o endereço padrão do Pages
+          PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
+          MODO: ${{ github.event_name == 'schedule' && 'publicar' || inputs.modo }}
+          POST: ${{ inputs.post }}
+        run: |
+          if [ -z "$PUBLIC_BASE_URL" ]; then
+            export PUBLIC_BASE_URL="https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}"
+          fi
+          args=()
+          [ "$MODO" = "dry-run" ] && args+=(--dry-run)
+          if [ -n "$POST" ]; then
+            [[ "$POST" =~ ^post-[0-9]+$ ]] || { echo "ERRO: id de post inválido: $POST"; exit 1; }
+            args+=(--post "$POST")
+          fi
+          echo "Imagens em: $PUBLIC_BASE_URL"
+          node tools/publicar.mjs "${args[@]}"
+
+      # roda mesmo se a publicação falhar, para guardar publicados e a última falha
+      - name: Salvar state.json
+        if: always()
+        run: |
+          if git diff --quiet -- export/state.json; then
+            echo "state.json sem mudanças."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add export/state.json
+          git commit -m "Atualiza state.json (publicação automática)"
+          for tentativa in 1 2 3 4 5; do
+            git pull --rebase --quiet && git push && exit 0
+            echo "Push falhou (tentativa $tentativa), tentando de novo…"
+            sleep $((tentativa * 5))
+          done
+          echo "ERRO: não consegui salvar o state.json. Confira antes da próxima execução para evitar duplicidade."
+          exit 1
