@@ -5,7 +5,8 @@
   "scripts": {
     "exportar": "node tools/exportar.mjs",
     "publicar": "node tools/publicar.mjs",
-    "renovar-token": "node tools/renovar-token.mjs"
+    "renovar-token": "node tools/renovar-token.mjs",
+    "ver-conta": "node tools/ver-conta.mjs"
   },
   "devDependencies": {
     "playwright": "1.64.1"
